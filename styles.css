@@ -68,3 +68,38 @@ a {
     flex : 1;
     background-color: gray;
 }
+
+.information-title {
+    text-align : center;
+    margin-top  : 20px;
+    margin-bottom : 20px;
+
+    font-size : 36px;
+    color : #1F2937;
+    font-weight: bold;
+}
+
+.infobox-wrapper {
+    display : flex;
+    justify-content: center;
+    gap : 50px;
+}
+
+.infobox {
+    max-width : 125px;
+}
+.infobox-img {
+    border-radius : 6px;
+    height : 125px;
+    width : 100%;
+    border : 3px solid #3882F6;
+}
+
+.infobox-text {
+    text-align: center;
+}
+
+.information {
+    padding-bottom : 125px;
+}
+
