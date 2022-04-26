@@ -38,11 +38,13 @@ a {
 
 .title-text {
     font-size: 48px;
+    flex : 1;
 }
 
 .subtext {
     margin-bottom: 10px;
     margin-top: 10px;
+    flex : 1;
 }
 
 .header-logo {
@@ -60,19 +62,25 @@ a {
 
 .title-container {
     background-color: #1F2937;
-    padding: 120px 200px;
+    padding: 120px 25%;
     display: flex;
+    max-height : 400px;
+    
 }
 
 .left-title {
     flex: 1;
+    display : flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin-right: 40px;
 }
 
 .right-image {
-    flex: 1;
-    background-color: gray;
+    max-height: 300px;
+
 }
+
 
 .information-title {
     text-align: center;
@@ -98,6 +106,7 @@ a {
     border-radius: 6px;
     height: 125px;
     width: 100%;
+    object-fit : cover;
     border: 3px solid #3882F6;
 }
 
